@@ -1,6 +1,14 @@
 # Gurobi license
 gurobi.lic
 
+# Full set data (voir sample_data/ pour un sous-ensemble versionné)
+data/
+.claude/
+
+# Sorties générées par le solveur (CLI ou app Streamlit)
+*.lp
+planning.svg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
