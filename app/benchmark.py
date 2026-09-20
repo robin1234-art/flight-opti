@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from metier.data_loader import lire_data
 from metier.optimization_model import build_model
 
-DEFAULT_FOLDER = "data/d=4"
+DEFAULT_FOLDER = "../sample_data/d=4"
 DEFAULT_D = 4
 
 
